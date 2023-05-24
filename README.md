@@ -8,7 +8,7 @@
 
 ```shell
 
-bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/aliv6.sh) -d 需要解析的域名 -b 阿里云AccessKeyID -c 阿里云AccessKeySecret
+bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/master/aliv6.sh) -d 需要解析的域名 -b 阿里云AccessKeyID -c 阿里云AccessKeySecret
 
 ```
 
@@ -20,6 +20,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/aliv6.sh)
 
 ```shell
 
-bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/scron.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/master/scron.sh)
 
 ```
