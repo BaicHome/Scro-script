@@ -16,10 +16,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/master/al
 
 >> 如您已安装宝塔，可以直接使用宝塔的计划任务工具
 
->> 执行Python脚本后，会有图形界面，选择好时间，在Shell命令处填写单独使用方法中的一键脚本
+>> 执行脚本后，根据提示选择好时间，在Shell命令处填写单独使用方法中的一键脚本
 
-```python3
+```shell
 
-python3 <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/master/scron.py)
+bash <(curl -Ls https://raw.githubusercontent.com/BaicHome/Scro-script/master/scron.sh)
 
 ```
