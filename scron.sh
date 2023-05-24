@@ -5,6 +5,15 @@ if ! command -v crontab &> /dev/null
 then
     echo "Crontab未安装，正在安装..."
     sudo apt-get install cron
+    yum install cron -y
+fi
+
+# 检测是否已安装zenity
+if ! command -v zenity &> /dev/null
+then
+    echo "zenity未安装，正在安装..."
+    sudo apt-get install zenity
+    yum install zenity -y
 fi
 
 # 显示GUI图形界面，要求用户选择/输入执行时间和需要执行的shell命令
